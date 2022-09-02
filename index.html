@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Fast Food</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="opacity"></div>
+        <div class="content">
+            <header class="header">
+                <h1 class="header__title">Сделайте заказ напрямую из ресторана</h1>
+            </header>
+
+            <main class="main">
+                <div class="main__open"> <img src="icons/menu-open.svg" alt="open"></div>
+                <aside class="main__menu">
+
+                    <nav class="main__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">Блины</li>
+                            <li class="nav__item">Шаурма</li>
+                            <li class="nav__item nav__active">Сендвичи</li>
+                            <li class="nav__item">Бургеры</li>
+                            <li class="nav__item">Курица & Картофель</li>
+                            <li class="nav__item">Тортилья & Салаты</li>
+                            <li class="nav__item">Напитки & Десерты</li>
+                        </ul>
+                    </nav>
+
+                    <div class="bug">
+                        <div class="bug__header">
+                            <img src="icons/bug.svg" alt="">
+                            <span class="bug__title">Корзина</span>
+                        </div>
+                        <div class="bug__main">
+                            <div class="bug__content">
+                                <span class="bug__name">Название</span>
+                                <span class="bug__count">Количество</span>
+                            </div>
+                            <div class="bug__sum">Итого: <span>0</span> руб.</div>
+                        </div>
+                        <div class="bug__footer">
+                            <button class="bug__btn">Оформить заказ </button>
+                        </div>
+                    </div>
+
+                </aside>
+
+                <section class="main__items">
+
+                    <div class="item">
+                        <div class="item__header">
+                            <div class="item__logo">
+                                <img src="icons/markets/subway_logo.png" alt="logo">
+                            </div>
+                            <div class="item__photo">
+                                <img src="icons/sandwiches/ovoshnoy.png" alt="ovoshnoy">
+                            </div>
+                        </div>
+                        <div class="item__main">
+                            <div class="item__name">Овощной</div>
+                            <div class="item__structure"> <span>Соус и овощи на выбор</span> </div>
+                        </div>
+                        <div class="item__footer">
+                            <div class="item__price">
+                                Цена: <span>110</span> руб.
+                            </div>
+                            <span class="item__quantity">Количество</span>
+                            <div class="item__counter">
+                                <button class="item__minus"></button>
+                                <input type="text" class="item__count" value="1"></input>
+                                <button class="item__plus"></button>
+                            </div>
+                            <button class="item__button">
+                                В корзину
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item__header">
+                            <div class="item__logo">
+                                <img src="icons/markets/subway_logo.png" alt="logo">
+                            </div>
+                            <div class="item__photo">
+                                <img src="icons/sandwiches/malt.png" alt="malt">
+                            </div>
+                        </div>
+                        <div class="item__main">
+                            <div class="item__name">Сабвэй Клаб</div>
+                            <div class="item__structure"> <span>Индейка, ветчина, ростбиф, соус</span> <span>и овощи на
+                                    выбор </span>
+                            </div>
+                        </div>
+                        <div class="item__footer">
+                            <div class="item__price">
+                                Цена: <span>180</span> руб.
+                            </div>
+                            <span class="item__quantity">Количество</span>
+                            <div class="item__counter">
+                                <button class="item__minus"></button>
+                                <input type="text" class="item__count" value="1"></input>
+                                <button class="item__plus"></button>
+                            </div>
+                            <button class="item__button">
+                                В корзину
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item__header">
+                            <div class="item__logo">
+                                <img src="icons/markets/subway_logo.png" alt="logo">
+                            </div>
+                            <div class="item__photo">
+                                <img src="icons/sandwiches/ovoshnoy.png" alt="ovoshnoy">
+                            </div>
+                        </div>
+                        <div class="item__main">
+                            <div class="item__name">Альпийский</div>
+                            <div class="item__structure"> <span>Альпийские колбаски 2шт, Соус</span><span>и овощи на
+                                    выбор</span></div>
+                        </div>
+                        <div class="item__footer">
+                            <div class="item__price">
+                                Цена: <span>180</span> руб.
+                            </div>
+                            <span class="item__quantity">Количество</span>
+                            <div class="item__counter">
+                                <button class="item__minus"></button>
+                                <input type="text" class="item__count" value="1"></input>
+                                <button class="item__plus"></button>
+                            </div>
+                            <button class="item__button">
+                                В корзину
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item__header">
+                            <div class="item__logo">
+                                <img src="icons/markets/subway_logo.png" alt="logo">
+                            </div>
+                            <div class="item__photo">
+                                <img src="icons/sandwiches/vetchina.png" alt="ovoshnoy">
+                            </div>
+                        </div>
+                        <div class="item__main">
+                            <div class="item__name">Овощной</div>
+                            <div class="item__structure"> <span>Соус и овощи на выбор</span> </div>
+                        </div>
+                        <div class="item__footer">
+                            <div class="item__price">
+                                Цена: <span>110</span> руб.
+                            </div>
+                            <span class="item__quantity">Количество</span>
+                            <div class="item__counter">
+                                <button class="item__minus"></button>
+                                <input type="text" class="item__count" value="1"></input>
+                                <button class="item__plus"></button>
+                            </div>
+                            <button class="item__button">
+                                В корзину
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item__header">
+                            <div class="item__logo">
+                                <img src="icons/markets/subway_logo.png" alt="logo">
+                            </div>
+                            <div class="item__photo">
+                                <img src="icons/sandwiches/vetchina.png" alt="ovoshnoy">
+                            </div>
+                        </div>
+                        <div class="item__main">
+                            <div class="item__name">Овощной</div>
+                            <div class="item__structure"> <span>Соус и овощи на выбор</span> </div>
+                        </div>
+                        <div class="item__footer">
+                            <div class="item__price">
+                                Цена: <span>110</span> руб.
+                            </div>
+                            <span class="item__quantity">Количество</span>
+                            <div class="item__counter">
+                                <button class="item__minus"></button>
+                                <input type="text" class="item__count" value="1"></input>
+                                <button class="item__plus"></button>
+                            </div>
+                            <button class="item__button">
+                                В корзину
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item__header">
+                            <div class="item__logo">
+                                <img src="icons/markets/subway_logo.png" alt="logo">
+                            </div>
+                            <div class="item__photo">
+                                <img src="icons/sandwiches/indandvet.png" alt="ovoshnoy">
+                            </div>
+                        </div>
+                        <div class="item__main">
+                            <div class="item__name">Овощной</div>
+                            <div class="item__structure"> <span>Соус и овощи на выбор</span> </div>
+                        </div>
+                        <div class="item__footer">
+                            <div class="item__price">
+                                Цена: <span>110</span> руб.
+                            </div>
+                            <span class="item__quantity">Количество</span>
+                            <div class="item__counter">
+                                <button class="item__minus"></button>
+                                <input type="text" class="item__count" value="1"></input>
+                                <button class="item__plus"></button>
+                            </div>
+                            <button class="item__button">
+                                В корзину
+                            </button>
+                        </div>
+                    </div>
+
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>
